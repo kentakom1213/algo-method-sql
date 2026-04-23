@@ -1,0 +1,5 @@
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT DEFAULT '「名無し」',
+    body TEXT
+);
